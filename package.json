@@ -1,0 +1,14 @@
+{
+  "name": "teachable-machine-node",
+  "version": "1.0.0",
+  "description": "Run a local Teachable Machine image model in Node.js",
+  "main": "predict.js",
+  "scripts": {
+    "predict": "node predict.js",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.20.0",
+    "serialport": "^13.0.0"
+  }
+}

@@ -17,6 +17,7 @@ const MIME_TYPES = {
 const CLASS_TO_SIGNAL = {
   Recyclable: "a",
   "Non-Recyclable": "b",
+  "Neutral": "c",
 };
 
 const arduinoPort = new SerialPort(
